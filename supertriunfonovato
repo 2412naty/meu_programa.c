@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    // Declarando as variáveis para as cartas
+    int populacao1 = 12325232, populacao2 = 6747815;
+    float area1 = 1521.11, area2 = 1182.30, pib1 = 720.4, pib2 = 634.5;
+    int pontos_turisticos1 = 12, pontos_turisticos2 = 8;
+
+    // Cadastro da primeira carta (São Paulo)
+    printf("Cadastro da primeira carta (São Paulo):\n");
+    printf("População: %d\n", populacao1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f bilhões de dólares\n", pib1);
+    printf("Pontos turísticos: %d\n", pontos_turisticos1);
+
+    // Cadastro da segunda carta (Rio de Janeiro)
+    printf("\nCadastro da segunda carta (Rio de Janeiro):\n");
+    printf("População: %d\n", populacao2);
+    printf("Área: %.2f km²\n", area2);
+    printf("PIB: %.2f bilhões de dólares\n", pib2);
+    printf("Pontos turísticos: %d\n", pontos_turisticos2);
+
+    return 0;
+}
